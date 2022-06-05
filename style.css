@@ -1,3 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Ovo&family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
 body {
-    background: rgb(44, 100, 124);
+    background: white;
+}
+
+.max-Width{
+    max-width: 1800px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+
+.navBar{
+    position: fixed;
+    width: 100%;
+    padding: 15px 0;
+    background: rgb(44, 86, 104);
+    font-family: "Ovo", Arial, Helvetica, sans-serif;
+}
+
+.navBar .max-Width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navBar .siteLogo a{
+    color: #fff;
+    font-size: 36px;
+    font-weight: 590;
+}
+
+.navBar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+
+
+.navBar .menu li a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 20px;
 }
