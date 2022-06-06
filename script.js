@@ -18,3 +18,13 @@ $(document).ready(function(){
         $(".menu-btn i").toggleClass("active");
     });
 });
+
+const button = document.querySelector('#button');
+
+button.addEventListener('click', () => {
+    button.innerText = 'Just Kidding!';
+    
+    window.setTimeout(() => {
+      button.innerText = 'Hire me';
+    }, 2000);
+});
